@@ -31,7 +31,16 @@ group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
 end
+gem "select2-rails", '3.4.8'
 
+group :development do
+  gem 'quiet_assets'
+end
+
+group :production do
+  gem 'pg'
+  gem 'thin'
+end
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
