@@ -1,11 +1,25 @@
 <head>
-    <script>
-        $(document).ready(function() { $("#e1").select2(); });
-    </script>
+  <script>
+    $(document).ready(function() { $("#e1").select2(); });
+  </script>
 </head>
 <body>
-    <select id="e1">
-        <option value="AL">Alabama</option>
-        <option value="WY">Wyoming</option>
-    </select>
+  <h3>
+    Rails Version: <%= Rails.version %>
+  </h3>
+  <h3>
+    Ruby Version: <%= RUBY_VERSION %>
+  </h3>
+  <h3>
+    Example select2-rails
+  </h3>
+  <select id="e1">
+      <option value="AL">Alabama</option>
+      <option value="WY">Wyoming</option>
+  </select>
+
+<div class="span8">
+        <h3>Example Code</h3>
+<pre class="prettyprint linenums" id="code_e1"><ol class="linenums"><li class="L0"><span class="tag">&lt;head&gt;</span></li><li class="L3"><span class="pln">    </span><span class="tag">&lt;script&gt;</span></li><li class="L4"><span class="pln">        $</span><span class="pun">(</span><span class="pln">document</span><span class="pun">).</span><span class="pln">ready</span><span class="pun">(</span><span class="kwd">function</span><span class="pun">()</span><span class="pln"> </span><span class="pun">{</span><span class="pln"> $</span><span class="pun">(</span><span class="str">"#e1"</span><span class="pun">).</span><span class="pln">select2</span><span class="pun">();</span><span class="pln"> </span><span class="pun">});</span></li><li class="L5"><span class="pln">    </span><span class="tag">&lt;/script&gt;</span></li><li class="L6"><span class="tag">&lt;/head&gt;</span></li><li class="L7"><span class="tag">&lt;body&gt;</span></li><li class="L8"><span class="pln">    </span><span class="tag">&lt;select</span><span class="pln"> </span><span class="atn">id</span><span class="pun">=</span><span class="atv">"e1"</span><span class="tag">&gt;</span></li><li class="L9"><span class="pln">        </span><span class="tag">&lt;option</span><span class="pln"> </span><span class="atn">value</span><span class="pun">=</span><span class="atv">"AL"</span><span class="tag">&gt;</span><span class="pln">Alabama</span><span class="tag">&lt;/option&gt;</span></li><li class="L1"><span class="pln">        </span><span class="tag">&lt;option</span><span class="pln"> </span><span class="atn">value</span><span class="pun">=</span><span class="atv">"WY"</span><span class="tag">&gt;</span><span class="pln">Wyoming</span><span class="tag">&lt;/option&gt;</span></li><li class="L2"><span class="pln">    </span><span class="tag">&lt;/select&gt;</span></li><li class="L3"><span class="tag">&lt;/body&gt;</span></li></ol></pre>
+    </div>
 </body>
