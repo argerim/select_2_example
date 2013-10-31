@@ -28,7 +28,7 @@ group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
 end
-gem "select2-rails", '3.5.0'
+gem "select2-rails", '3.5.1'
 
 group :development do
   gem 'quiet_assets'
