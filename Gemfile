@@ -29,7 +29,7 @@ group :doc do
   gem 'sdoc', require: false
 end
 
-gem "select2-rails", '3.5.2'
+gem "select2-rails", '3.5.4'
 
 group :development do
   gem 'quiet_assets'
