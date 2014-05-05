@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby "2.0.0"
+ruby "2.1.1"
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0.rc2'
 
@@ -29,7 +29,7 @@ group :doc do
   gem 'sdoc', require: false
 end
 
-gem "select2-rails", '3.5.4'
+gem "select2-rails", '3.5.7'
 
 group :development do
   gem 'quiet_assets'
