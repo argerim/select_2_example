@@ -136,7 +136,7 @@ DEPENDENCIES
   rails_12factor
   sass-rails (~> 4.0.0.rc2)
   sdoc
-  select2-rails (= 3.5.9.1)
+  select2-rails
   sqlite3
   thin
   turbolinks
