@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
-ruby "2.1.1"
+
+ruby "2.2.0"
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails'
 
@@ -29,7 +30,7 @@ group :doc do
   gem 'sdoc', require: false
 end
 
-gem "select2-rails"
+gem 'select2-rails'
 
 group :development do
   gem 'quiet_assets'
@@ -38,10 +39,11 @@ group :development do
 end
 
 group :production do
-  gem 'pg'
-  gem 'thin'
+  gem 'pg'  
   gem 'rails_12factor'
 end
+
+gem 'thin'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
